@@ -1,0 +1,484 @@
+@media screen and (max-width: 1620px) {
+  .hero-shape {
+    position: absolute;
+    left: 0px;
+    top: -215px;
+    width: 1300px;
+    margin: 0px auto;
+    right: 0px;
+    z-index: -1;
+  }
+  .hero__area {
+    background: #293897;
+    height: 750px;
+    padding-top: 165px;
+    overflow: hidden;
+  }
+  .hero__btn {
+    width: 127px;
+    transform: translateX(7px);
+    height: 50px;
+    margin-top: 34px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .platform__header h2 {
+    font-size: 48px;
+    line-height: 1.3;
+  }
+  .sines_btn {
+    font-size: 20px;
+  }
+  .faq__illustration h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    padding-bottom: 50px;
+  }
+  .form__control {
+    margin-top: 25px;
+  }
+  .form__shape {
+    left: 300px;
+    top: 280px;
+  }
+  .login__text h2 {
+    font-size: 46px;
+    line-height: 1.2;
+  }
+  .login__text h3 {
+    font-size: 32px;
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+  .form__control .form__submit,
+  .form__control input {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .faqs-area {
+    padding: 55px 0;
+  }
+  .hero__area {
+    background: #293897;
+    height: 750px;
+    padding-top: 163px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .hero-shape {
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    width: 1200px;
+    margin: 0px auto;
+    right: 0px;
+    z-index: -1;
+  }
+  .hero__btn {
+    width: 119px;
+    transform: translateX(7px);
+    height: 47px;
+    margin-top: 36px;
+  }
+  .hero__content h1 {
+    font-size: 50px;
+    line-height: 68px;
+  }
+  .hero__content p {
+    max-width: 400px;
+  }
+  .hero__content p br {
+    display: none;
+  }
+  .hero-shape {
+    display: none;
+  }
+  .hero__area {
+    background-image: url("../img/mobile-hero.svg");
+    background-position: center;
+    height: 700px;
+    padding-top: 117px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 24px;
+  }
+  .header__wrapper .main__manu {
+    column-gap: 5px;
+  }
+  .header__wrapper .main__manu li a {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .sines_btn {
+    font-size: 18px;
+  }
+  .platform_content {
+    column-gap: 60px;
+  }
+  .platform {
+    padding: 100px 0;
+  }
+  .faqs__content {
+    grid-template-columns: 300px auto;
+  }
+  .faq__illustration h2 {
+    font-size: 36px;
+  }
+  .single_faq h3 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  .footer_btn {
+    font-size: 18px;
+  }
+  .form__control {
+    margin-top: 20px;
+  }
+  .form__title {
+    padding-bottom: 20px;
+  }
+  .form__shape {
+    left: 260px;
+    top: 285px;
+    height: 350px;
+  }
+  .login__text h2 {
+    font-size: 42px;
+  }
+  .login__text h3 {
+    font-size: 30px;
+  }
+  .form__control .form__submit,
+  .form__control input {
+    padding: 16px 20px;
+    font-size: 15px;
+  }
+  .socail__links ul li a img {
+    height: 35px;
+    width: 35px;
+  }
+  .socail__links ul {
+    column-gap: 20px;
+  }
+  .single_platform h4 {
+    padding-bottom: 15px;
+  }
+  .hero-shape {
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    width: 991px;
+    margin: 0px auto;
+    right: 0px;
+    z-index: -1;
+  }
+  .hero__btn {
+    transform: translateX(7px);
+    font-size: 14px;
+    margin-top: 35px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .header__wrapper nav {
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  header {
+    background: #293897;
+  }
+  .mobile__bar {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    z-index: 9999;
+  }
+  .mobile__bar.active span {
+    background: #000;
+  }
+  .header__wrapper nav {
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    top: 100%;
+    padding-right: 100px;
+    background: #fff;
+    z-index: 999;
+    right: -200px;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+    transition: 0.4s all ease;
+    min-height: 100vh;
+    top: 0;
+    padding-top: 60px !important;
+  }
+  .header__wrapper nav.active {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  .header__wrapper .main__manu {
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px 0;
+    padding-bottom: 0px;
+  }
+  .header__wrapper .main__manu li {
+    width: 100%;
+  }
+  .header__wrapper .main__manu li a {
+    text-align: right;
+    padding-right: 35px;
+  }
+  .header__btngroup {
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 35px;
+    padding-top: 10px;
+    align-items: flex-end;
+  }
+
+  .hero__btn {
+    width: 120px;
+    transform: translateX(7px);
+    height: 46px;
+    font-size: 16px;
+    margin-top: 36px;
+  }
+  .platform_content {
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .faqs__content {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .faq__illustration h2 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  .single_faq h3 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .single_faq p {
+    font-size: 16px;
+  }
+  .form__shape {
+    display: none;
+  }
+  .login__text h2 {
+    font-size: 38px;
+  }
+  .login__text h3 {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+  .login__text p {
+    font-size: 15px;
+  }
+  .form__devider {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 15px;
+  }
+  .logo {
+    font-size: 22px;
+    color: #fff;
+  }
+  .sines,
+  .platform {
+    padding: 80px 0;
+  }
+  .platform__header {
+    padding-top: 0px;
+  }
+  .sines__header-tab {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  .sines__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .platform__header h2,
+  .sines__header h2 {
+    font-size: 42px;
+    line-height: 1.3;
+  }
+  .btn_login {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: none;
+    color: #000000;
+    display: inline-block;
+  }
+  .header__btngroup .btn_primary {
+    background: transparent;
+    padding: 0;
+    color: #000000;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 766px) {
+  .sines__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .platform__header h2 {
+    font-size: 38px;
+  }
+  .hero__content h1 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .hero__content p br {
+    display: none;
+  }
+  .single_faq h3 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .footer__content {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+  .footer_btn {
+    font-size: 16px;
+  }
+  .footer_btn img {
+    height: 30px;
+    width: 30px;
+  }
+  .login__text h2 {
+    font-size: 36px;
+  }
+  .login__text h3 {
+    font-size: 26px;
+  }
+  .login__wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 85px 0;
+  }
+  .login_page .login__text {
+    padding-top: 0px;
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .signin_page .login__text {
+    padding-top: 0px;
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form__title {
+    display: none;
+  }
+  .single_platform h4 {
+    padding-bottom: 10px;
+  }
+  .single_platform h4 {
+    padding-top: 15px;
+  }
+  .faq__illustration img {
+    display: none;
+  }
+  .faq__illustration h2 {
+    padding-bottom: 0;
+    font-size: 28px;
+  }
+  .faqs-area {
+    padding: 45px 0;
+  }
+  .hero__area {
+    padding-top: 131px;
+  }
+  .sines__header h2 {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+  .sines__header h2 {
+    font-size: 36px;
+  }
+  .sines__header h2 {
+    font-size: 36px;
+  }
+  .single_platform p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .header__wrapper nav {
+    width: 350px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .platform__header h2 {
+    font-size: 32px;
+  }
+  .hero__content h1 br {
+    display: none;
+  }
+  .hero__content h1 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 44px;
+  }
+  .sines__content {
+    grid-template-columns: 1fr;
+  }
+  .platform_content {
+    column-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+  .login__text h2 {
+    font-size: 26px;
+    padding-bottom: 5px;
+  }
+  .login__text h3 {
+    font-size: 21px;
+    padding-bottom: 32px;
+  }
+  .login__text p {
+    font-size: 14px;
+  }
+  .sines,
+  .platform {
+    padding: 60px 0;
+  }
+  .single__sines {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .sines__header h2 {
+    font-size: 32px;
+  }
+  .header__wrapper nav {
+    width: 300px;
+    padding-right: 0px;
+  }
+  .hero__content p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero__area {
+    padding-top: 149px;
+  }
+  .hero__content h1 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 37px;
+    line-height: 1.3;
+    padding-bottom: 10px;
+  }
+}
