@@ -1,40 +1,34 @@
-# Sinegularity (UCD AI Society) — Product Design Case Study
+# Sinegularity — A Marketplace for Student Innovation
 
-**Role:** Co-Founder & Lead Product Engineer  
-**Timeline:** Oct 2023 – Dec 2023  
-**Stack:** Django, HTML, CSS, JavaScript, Figma
-
----
-
-## 📌 The Problem
-University College Dublin (UCD) lacked a centralized, modern hub for students to engage with the early stage startup landscape. Existing society pages were fragmented and lacked a cohesive "tech-forward" identity, leading to low student engagement.
-
-## 🎨 Design Vision: "Humanizing the Machine"
-For the Sinegularity brand, I designed a visual language that balances **Technical Rigor** with **Accessibility**.
-
-### 1. Visual Identity & Branding
-* **Typography:** Selected high-legibility sans-serif fonts to ensure readability across all device types.
-* **Color Palette:** High-contrast "Deep Space" themes with vibrant accent colors to guide user attention to Call-to-Action (CTA) buttons.
-* **Inclusive Design:** Evaluated contrast ratios to meet **WCAG 2.1 AA standards**, ensuring the platform is usable for students with visual impairments.
-
-### 2. User Experience (UX) Architecture
-I mapped the user journey from "Curious Student" to "Active Member" by streamlining the navigation:
-* **The Landing Page:** A "hook-first" design showing immediate value (Events/Research).
-* **Responsive Layouts:** Built a mobile-first architecture, recognizing that 70% of student traffic originates from mobile devices during campus commutes.
-
-## 🛠️ Implementation (Design-to-Code)
-Unlike traditional designers, I bridged the gap by translating Figma high-fidelity prototypes into a **reusable component library** using Tailwind CSS. This allowed for:
-* **Consistency:** Global styles for buttons, cards, and navigation.
-* **Performance:** Optimized asset loading for a near-instantaneous LCP (Largest Contentful Paint).
+**Role:** Lead Product Designer & Co-Founder  
+**The Mission:** Bridge the "Co-founder Gap" at UCD by connecting technical engineers with creative business minds.
 
 ---
 
-## 🚀 Impact
-* **Membership Growth:** Contributed to a [X]% increase in society sign-ups within the first month of launch.
-* **Brand Recognition:** Established a unique visual footprint that differentiated Sinegularity from 100+ other UCD societies.
+## 📐 Design Challenge: The "Co-founder Discovery" Problem
+Students often have "Startup FOMO"—they have skills but no ideas, or ideas but no technical partner. I designed Sinegularity to act as the "missing piece," focusing on three key pillars: **Discovery, Credibility, and Connection.**
+
+## 🛠️ Key Design Features
+
+### 1. The "Latest Sines" Feed (Information Design)
+I designed a card-based feed to make projects scannable. 
+* **Taxonomy:** Categorized posts by "Engineering," "CS," and "Tech" tags to allow users to filter by their expertise instantly.
+* **Visual Hierarchy:** Prioritized the project title and a short "hook" to reduce cognitive load while browsing multiple ideas.
+
+### 2. Trust & Social Proof (Endorsements & About)
+To move students from "browsing" to "messaging," trust is essential. 
+* **Endorsements:** Integrated a dedicated section for external validation (NovaUCD) to boost platform authority.
+* **FAQ Architecture:** Designed an accordion-style FAQ to answer common barriers to entry (Cost, Purpose, Job Potential) without cluttering the landing page.
+
+### 3. Responsive CTA Strategy
+The "Get Started" and "Check Out More" buttons are strategically placed at the top and bottom of the "Sines" feed to ensure a clear **Conversion Path** regardless of where the user is on the page.
+
+## 🎨 Visual Identity
+* **Modern Professionalism:** Used a clean, high-contrast layout to appeal to both serious student founders and university stakeholders (NovaUCD).
+* **Accessibility:** Focused on a legible typographic scale to ensure the "Smart Glimpse" and "Power Steered" project descriptions are readable on small mobile screens.
 
 ---
 
-### 🖼️ Screenshots & Prototypes
-1. **Desktop View:** [Add Image Link]
-2. **Mobile UX:** [Add Image Link]
+## 🚀 Impact & Growth
+* **Unified the UCD Startup Ecosystem:** Transitioned from a simple society page to a functional networking tool for UCD ElecSoc and NovaUCD.
+* **Scalable Framework:** Built the frontend to be "Idea Agnostic"—allowing any student to post regardless of their technical level.
