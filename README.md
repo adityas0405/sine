@@ -26,6 +26,11 @@ The "Get Started" and "Check Out More" buttons are strategically placed at the t
 ## 🎨 Visual Identity
 * **Modern Professionalism:** Used a clean, high-contrast layout to appeal to both serious student founders and university stakeholders (NovaUCD).
 * **Accessibility:** Focused on a legible typographic scale to ensure the "Smart Glimpse" and "Power Steered" project descriptions are readable on small mobile screens.
+<img width="1325" height="817" alt="Screenshot 2026-02-14 at 10 15 53" src="https://github.com/user-attachments/assets/e8c7aeb8-2a79-4b4b-b18d-4d231d0e5d98" />
+
+<img width="1328" height="802" alt="Screenshot 2026-02-14 at 10 16 27" src="https://github.com/user-attachments/assets/9babb179-9fa9-4904-a4ca-678da33184c9" />
+  
+<img width="1316" height="872" alt="Screenshot 2026-02-14 at 10 16 11" src="https://github.com/user-attachments/assets/2a9927fe-79c4-48c4-babd-abda3db6093f" />
 
 ---
 
